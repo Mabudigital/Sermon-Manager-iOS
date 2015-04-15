@@ -35,12 +35,12 @@
     <preference name="stay-in-webview"            value="true" />          <!-- ios: external links should open in the default browser, 'true' would use the webview the app lives in -->
     <preference name="detect-data-types"          value="true" />           <!-- ios: controls whether data types (such as phone no. and dates) are automatically turned into links by the system -->
     <preference name="exit-on-suspend"            value="true" />          <!-- ios: if set to true, app will terminate when home button is pressed -->
-	<preference name="show-splash-screen-spinner" value="true" />           <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
-    <preference name="auto-hide-splash-screen"    value="true" />           <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
-    <preference name="SplashScreen"               value="screen"/>
-	<preference name="show-splash-screen-spinner" value="true" />           <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
-    <preference name="auto-hide-splash-screen"    value="true" />           <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
-    <preference name="SplashScreenDelay"          value="5000" />
+	<!--<preference name="show-splash-screen-spinner" value="true" /> -->          <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
+    <!--<preference name="auto-hide-splash-screen"    value="true" /> -->          <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
+    <!--<preference name="SplashScreen"               value="screen"/>-->
+	<!--<preference name="show-splash-screen-spinner" value="true" /> -->          <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
+    <!--<preference name="auto-hide-splash-screen"    value="true" /> -->          <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
+    <!--<preference name="SplashScreenDelay"          value="5000" />-->
 	<icon src="icon.png" />
 	<!-- iPhone 6 / 6+ -->
 	<icon src="res/icon/ios/icon-60@3x.png" gap:platform="ios" width="180" height="180" />
@@ -65,21 +65,21 @@
 	<!-- iPad Spotlight and Settings Icon -->
 	<icon src="res/icon/ios/icon-50.png" gap:platform="ios" width="50" height="50" />
 	<icon src="res/icon/ios/icon-50@2x.png" gap:platform="ios" width="100" height="100" />	
-	<gap:splash src="screen.png" />
-	<!-- iPhone and iPod touch -->
+	<!--<gap:splash src="screen.png" />-->
+	<!-- iPhone and iPod touch
 	<gap:splash src="res/screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
 	<gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios" width="640" height="960" />
-	<gap:splash src="res/screen/ios/screen-iphone-portrait-568h-2x.png" gap:platform="ios" width="640" height="1136" />
-	<!-- iPhone 6 -->
+	<gap:splash src="res/screen/ios/screen-iphone-portrait-568h-2x.png" gap:platform="ios" width="640" height="1136" /> -->
+	<!-- iPhone 6 
 	<gap:splash src="res/screen/ios/screen-iphone-portrait-667h-2x.png" gap:platform="ios" width="750" height="1334" />
 	<gap:splash src="res/screen/ios/screen-iphone-portrait-736h-3x.png" gap:platform="ios" width="1242" height="2208" />
-	<gap:splash src="res/screen/ios/screen-iphone-landscape-736h-3x.png" gap:platform="ios" width="2208" height="1242" />
-	<!-- iPad -->
+	<gap:splash src="res/screen/ios/screen-iphone-landscape-736h-3x.png" gap:platform="ios" width="2208" height="1242" />-->
+	<!-- iPad
 	<gap:splash src="res/screen/ios/screen-ipad-portrait.png" gap:platform="ios" width="768" height="1024" />
-	<gap:splash src="res/screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768" />
-	<!-- Retina iPad -->
+	<gap:splash src="res/screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768" /> -->
+	<!-- Retina iPad 
 	<gap:splash src="res/screen/ios/screen-ipad-portrait-2x.png" gap:platform="ios" width="1536" height="2048" />
-	<gap:splash src="res/screen/ios/screen-ipad-landscape-2x.png" gap:platform="ios" width="2048" height="1536" />
+	<gap:splash src="res/screen/ios/screen-ipad-landscape-2x.png" gap:platform="ios" width="2048" height="1536" />-->
 	
 	<!-- Plugins -->
     <!-- Core plugins -->
